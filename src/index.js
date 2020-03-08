@@ -8,7 +8,6 @@ const votesStatus = require(VOTES_FILE_PATH);
 const init = async () => {
 	const server = Hapi.server({
 		port: process.env.PORT || 4444
-		// host: process.env.HOST || 'localhost'
 	});
 	// request.params
 	// request.query
@@ -37,7 +36,6 @@ const init = async () => {
 
 	await server.start();
 	console.log(`Server running on ${server.info.uri}`);
-	console.log(process.env);
 }
 
 process.on('unhandledRejection', err => {
