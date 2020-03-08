@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Xema",
+		"imageUrl": "/paco-pil.jpg",
+		"votesCount": 0
+	},
+	{
+		"id": 2,
+		"name": "David",
+		"imageUrl": "/gigi.jpg",
+		"votesCount": 0
+	},
+	{
+		"id": 3,
+		"name": "Carlos",
+		"imageUrl": "vendetta.jpg",
+		"votesCount": 0
+	}
+]
